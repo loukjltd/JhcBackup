@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show Dishes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <img src="{% static 'img/gbjd.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body text-white bg-warning">
+        <h5 class="card-title">GBJD</h5>
+          <a href="{% url 'gbjdPage' %}"><button type="button" class="btn btn-primary">Menu</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="{% static 'img/mpdf.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body text-white bg-warning">
+        <h5 class="card-title">MPDF</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="{% static 'img/tcpg.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body text-white bg-warning">
+        <h5 class="card-title">TCPG</h5>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

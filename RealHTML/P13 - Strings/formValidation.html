@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" type="text/css" href="formValidation.css">
+        <script src="formValidation.js"></script>
+    </head>
+    <body>
+        <div id="emailRegisterDiv">
+            <div id="registerTitle">Register Your E-Mail</div>
+
+            <label for="userName"></label>
+            <input id="userName" type="text" placeholder="User Name" onblur="lostBlurUserName()">
+            <br/>
+            <span id="userNameSpan">6-18 characters are required. Letters, numbers, underscores can be used, and must start with a letter.</span>
+
+            <label for="password"></label>
+            <input id="password" type="password" placeholder="Password">
+
+            <label for="verificationCode"></label>
+            <input id="verificationCode" type="text" placeholder="Verification Code">
+            <span id="verificationCodeSpan">Please click the button down below to get the verification code.</span>
+
+            <div id="buttonSeries">
+                <button onclick="getVerificationCode(6)">Get Verification Code</button>
+                <button onclick="submitAllInfo()">Submit All</button>
+            </div>
+        </div>
+
+    </body>
+</html>

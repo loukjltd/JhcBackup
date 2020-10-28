@@ -1,0 +1,122 @@
+.drivers{
+    width: 1200px;
+    min-width: 1200px;
+    margin:0 auto;
+}
+
+.drivers .driversContent{
+    width: 1200px;
+    height: 1200px;
+    /*background-color: #00FF00;*/
+}
+
+.drivers .driversContent .pc{
+    width: 390px;
+    height: 1200px;
+    background-color: rgba(14, 93, 152, 0.1);
+    float: left;
+    margin-right: 5px;
+}
+
+.drivers .driversContent .pc .icon-pc{
+    font-size: 100px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.drivers .driversContent .categoryTitle{
+    text-align: center;
+    line-height: 50px;
+    color: #2A425E;
+}
+
+.drivers .driversContent h3{
+    padding-left: 10px;
+    line-height: 50px;
+    color: #2A425E;
+}
+
+.drivers .driversContent .pc ul{
+    padding-left: 10px;
+    list-style: none;
+    line-height: 30px;
+}
+
+.drivers .driversContent .pc ul li a{
+    float: right;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.drivers .driversContent .pc ul li a:hover{
+    color: rgba(14, 93, 152, 1);
+    text-decoration: underline;
+}
+
+
+.drivers .driversContent .printer{
+    width: 390px;
+    height: 1200px;
+    background-color: rgba(14, 93, 152, 0.1);
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.drivers .driversContent .printer .icon-printer{
+    font-size: 100px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.drivers .driversContent .printer ul{
+    padding-left: 10px;
+    list-style: none;
+    line-height: 30px;
+}
+
+.drivers .driversContent .printer ul li a{
+    float: right;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.drivers .driversContent .printer ul li a:hover{
+    color: rgba(14, 93, 152, 1);
+    text-decoration: underline;
+}
+
+
+.drivers .driversContent .otherDevices{
+    width: 390px;
+    height: 1200px;
+    background-color: rgba(14, 93, 152, 0.1);
+    float: left;
+    margin-left: 5px;
+}
+
+.drivers .driversContent .otherDevices .icon-others{
+    font-size: 100px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.drivers .driversContent .otherDevices ul{
+    padding-left: 10px;
+    list-style: none;
+    line-height: 30px;
+}
+
+.drivers .driversContent .otherDevices ul li a{
+    float: right;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.drivers .driversContent .otherDevices ul li a:hover{
+    color: rgba(14, 93, 152, 1);
+    text-decoration: underline;
+}

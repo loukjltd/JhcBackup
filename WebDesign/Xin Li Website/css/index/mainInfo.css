@@ -1,0 +1,147 @@
+.mainInfo{
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+.mainInfo .newestStateContent{
+    width: 600px;
+    height: 450px;
+    background-color: rgba(14, 93, 152, 0.1);
+    float: left;
+}
+
+.mainInfo .newestStateContent .newestStateTitle{
+    width: 600px;
+    height: 70px;
+    /*background-color: #FF0000;*/
+}
+
+.mainInfo .newestStateContent .newestStateTitle img{
+    width: 60px;
+    height: 60px;
+    /*background-color: #FF6700;*/
+    float: left;
+}
+
+.mainInfo .newestStateContent .newestStateTitle h2{
+    width: 150px;
+    height: 60px;
+    /*background-color: #5F5750;*/
+    line-height: 60px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: #2A425E;
+    float: left;
+}
+
+.mainInfo .newestStateContent .newestStateArticles{
+    width: 600px;
+    height: 400px;
+    /*background-color: #FF0000;*/
+}
+
+.mainInfo .newestStateContent .newestStateArticles ul{
+    width: 600px;
+    height: 400px;
+    /*background-color: #00FF00;*/
+    padding-left: 25px;
+}
+
+.mainInfo .newestStateContent .newestStateArticles ul li{
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mainInfo .newestStateContent .newestStateArticles ul li a{
+    color: #0E5D98;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.mainInfo .newestStateContent .newestStateArticles ul li a:hover{
+    text-decoration: underline;
+}
+
+.mainInfo .newestStateContent .newestStateArticles ul li p{
+    float: right;
+    color: #424242;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+
+.mainInfo .driversDownloadContent{
+    width: 550px;
+    height: 450px;
+    background-color: rgba(14, 93, 152, 0.1);
+    float: left;
+    padding-left: 50px;
+}
+
+.mainInfo .driversDownloadContent .driversDownloadTitle{
+    width: 600px;
+    height: 70px;
+    /*background-color: #FF0000;*/
+}
+
+.mainInfo .driversDownloadContent .driversDownloadTitle img{
+    width: 60px;
+    height: 60px;
+    /*background-color: #FF6700;*/
+    float: left;
+}
+
+.mainInfo .driversDownloadContent .driversDownloadTitle a{
+    width: 150px;
+    height: 60px;
+    /*background-color: #5F5750;*/
+    line-height: 60px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: #2A425E;
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mainInfo .driversDownloadContent .driversDownloadTitle a:hover{
+    color: rgba(14, 93, 152, 0.5)
+}
+
+.mainInfo .driversDownloadContent .driversDownloadArticles{
+    width: 600px;
+    height: 400px;
+    /*background-color: #FF0000;*/
+}
+
+.mainInfo .driversDownloadContent .driversDownloadArticles ul{
+    width: 600px;
+    height: 400px;
+    /*background-color: #00FF00;*/
+    padding-left: 25px;
+}
+
+.mainInfo .driversDownloadContent .driversDownloadArticles ul li{
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mainInfo .driversDownloadContent .driversDownloadArticles ul li a{
+    color: #0E5D98;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.mainInfo .driversDownloadContent .driversDownloadArticles ul li a:hover{
+    text-decoration: underline;
+}
+
+.mainInfo .driversDownloadContent .driversDownloadArticles ul li p{
+    float: right;
+    color: #424242;
+    font-size: 12px;
+    line-height: 26px;
+}

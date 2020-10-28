@@ -1,0 +1,101 @@
+.functionModules{
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+.functionModules .functionModulesContent{
+    width: 1200px;
+    height: 160px;
+    /*background-color: #00FF00;*/
+    margin: 0 auto;
+}
+
+.functionModules .functionModulesContent .functionModulesTitle{
+    width: 1200px;
+    height: 70px;
+    /*background-color: #FF0000;*/
+}
+
+.functionModules .functionModulesContent .functionModulesTitle img{
+    width: 60px;
+    height: 60px;
+    /*background-color: #FF6700;*/
+    float: left;
+}
+
+.functionModules .functionModulesContent .functionModulesTitle h2{
+    width: 300px;
+    height: 60px;
+    /*background-color: #5F5750;*/
+    line-height: 60px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: #2A425E;
+    float: left;
+}
+
+.functionModules .functionModulesContent .functionModulesTabs{
+    width: 1200px;
+    height: 75px;
+    /*background-color: #FFC661;*/
+}
+
+.functionModules .functionModulesContent .functionModulesTabs ul{
+    width: 1200px;
+    height: 80px;
+    /*background-color: #3597c5;*/
+    list-style: none;
+}
+.functionModules .functionModulesContent .functionModulesTabs ul li{
+    width: 280px;
+    margin: 0 10px;
+    float: left;
+    border-radius: 25px;
+}
+
+.functionModules .functionModulesContent .functionModulesTabs ul li a{
+    text-decoration: none;
+}
+
+.functionModules .functionModulesContent .functionModulesTabs ul li:hover a{
+    color: white;
+}
+
+.functionModules .functionModulesContent .functionModulesTabs ul li:nth-child(1){
+    background-color: #806F5B;
+}
+
+.functionModules .functionModulesContent .functionModulesTabs ul li:nth-child(2){
+    background-color: #C94A01;
+}
+
+.functionModules .functionModulesContent .functionModulesTabs ul li:nth-child(3){
+    background-color: #2A425E;
+}
+
+.functionModules .functionModulesContent .functionModulesTabs ul li:nth-child(4){
+    background-color: #579242;
+}
+
+.functionModules .functionModulesContent .functionModulesTabs ul li p{
+    font-size: 35px;
+    color: white;
+    float: left;
+    line-height: 75px;
+    padding-left: 15px;
+}
+
+.functionModules .functionModulesContent .functionModulesTabs .functionModulesTabsText{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.functionModules .functionModulesContent .functionModulesTabs ul li .chinese{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.functionModules .functionModulesContent .functionModulesTabs ul li .english{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.8);
+}

@@ -1,0 +1,24 @@
+.presentLocation{
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+.presentLocation .presentLocationContent{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.presentLocation .presentLocationContent .presentTabs{
+    width: 1200px;
+    height: 50px;
+    /*background-color: #FF6700;*/
+    margin: 0 auto;
+}
+
+.presentLocation .presentLocationContent .presentTabs p{
+    color: #424242;
+    font-size: 14px;
+    line-height: 50px;
+}

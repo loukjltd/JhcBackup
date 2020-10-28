@@ -1,0 +1,125 @@
+.goods .content > a.phone_logo{
+    display: block;
+    width: 1226px;
+    height: 120px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    background-image: url(../img/image/xiaomi10.jpg);
+    background-size: 1226px 120px;
+}
+
+.goods .content > .phone{
+    width: 1226px;
+    height: 672px;
+    /*需要注释掉*/
+    /*background-color: tan;*/
+    position: relative;
+}
+
+.goods .content > .phone h2{
+    width: 1226px;
+    height: 58px;
+    line-height: 58px;
+    font-size: 22px;
+    color: #333333;
+    font-weight: 200;
+}
+
+.goods .content > .phone > a{
+    width: 92px;
+    height: 18px;
+    line-height: 18px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 16px;
+    color: #424242;
+}
+.goods .content > .phone > a i{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #B0B0B0;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 18px;
+    float: right;
+    margin: 1px 0 0 4px;
+}
+.goods .content > .phone .phone_content{
+    width: 1226px;
+    height: 614px;
+    /*需要注释掉*/
+    /*background-color: thistle;*/
+}
+
+.goods .content > .phone .phone_content a{
+    width: 234px;
+    height: 614px;
+    display: block;
+    float: left;
+}
+.goods .content > .phone .phone_content a img{
+    width: 100%;
+    height: 100%;
+}
+.goods .content > .phone .phone_content ul{
+    width: 992px;
+    height: 614px;
+    float: left;
+    list-style: none;
+    /*需要注释掉*/
+    /*background-color: tomato;*/
+}
+.goods .content > .phone .phone_content ul li{
+    width: 234px;
+    height: 260px;
+    background-color: #FFFFFF;
+    margin: 0 0 14px 14px;
+    padding: 20px 0;
+    float: left;
+}
+.goods .content > .phone .phone_content ul li a{
+    display: block;
+    width: 234px;
+    height: 250px;
+}
+
+.goods .content > .phone .phone_content ul li a img{
+    width: 160px;
+    height: 160px;
+    margin: 0 37px 18px;
+}
+
+.goods .content > .phone .phone_content ul li a h3{
+    width: 214px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    color: #333333;
+    font-size: 14px;
+    margin: 0 10px 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.goods .content > .phone .phone_content ul li a p.desc{
+    width: 214px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    color: #B0B0B0;
+    font-size: 12px;
+    margin: 0 10px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.goods .content > .phone .phone_content ul li a p.price{
+    width: 234px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    font-size: 14px;
+    color: #FF6700;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User List</title>
+</head>
+<body>
+    <div>
+        <h1>Here are your users.</h1>
+    </div>
+    {% for i in user %}
+        <div><h4>{{ i.id_number }}) User Info</h4></div>
+        <div> - First Name: {{ i.first_name }}</div>
+        <div> - Last Name: {{ i.last_name }}</div>
+        <div> - Email: {{ i.email }}</div>
+        <br>
+    {% endfor %}
+</body>
+</html>

@@ -1,0 +1,116 @@
+.driversNotice{
+    width: 1200px;
+    min-width: 1200px;
+    margin: 10px auto;
+}
+
+.driversNotice .driversNoticeContent{
+    width: 1200px;
+    height: 300px;
+    margin: 10px auto;
+}
+
+.driversNotice .driversNoticeContent .aboutDrivers{
+    width: 295px;
+    height: 300px;
+    background-color: rgba(14, 93, 152, 0.1);
+    margin-right: 5px;
+    float: left;
+}
+
+.driversNotice .driversNoticeContent .driversGenius{
+    width: 290px;
+    height: 300px;
+    background-color: rgba(14, 93, 152, 0.1);
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+.driversNotice .driversNoticeContent .cantDownloadDrivers{
+    width: 290px;
+    height: 300px;
+    background-color: rgba(14, 93, 152, 0.1);
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+.driversNotice .driversNoticeContent .noDrivers{
+    width: 295px;
+    height: 300px;
+    background-color: rgba(14, 93, 152, 0.1);
+    margin-left: 5px;
+    float: left;
+}
+
+.driversNotice .driversNoticeContent img{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.driversNotice .driversNoticeContent h2{
+    float: left;
+    line-height: 60px;
+    padding-left: 10px;
+    color: #2A425E;
+}
+
+.driversNotice .driversNoticeContent p{
+    float: left;
+    margin: auto 20px;
+    line-height: 25px;
+}
+
+.driversNotice .driversNoticeContent .aboutDrivers a{
+    text-decoration: none;
+    float: left;
+    margin: 15px 20px auto;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    background-color: #806F5B;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.driversNotice .driversNoticeContent .driversGenius a{
+    text-decoration: none;
+    float: left;
+    margin: 15px 20px auto;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    background-color: #C94A01;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.driversNotice .driversNoticeContent .cantDownloadDrivers a{
+    text-decoration: none;
+    float: left;
+    margin: 15px 20px auto;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    background-color: #579242;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.driversNotice .driversNoticeContent .noDrivers a{
+    text-decoration: none;
+    float: left;
+    margin: 15px 20px auto;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    background-color: #579242;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.driversNotice .driversNoticeContent a:hover{
+    color: rgba(255, 255, 255, 1);
+}

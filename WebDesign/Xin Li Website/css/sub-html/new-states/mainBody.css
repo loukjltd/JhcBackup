@@ -1,0 +1,39 @@
+.mainBody{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.mainBody .mainBodyContent{
+    width: 1200px;
+    height: 600px;
+    background-color: rgba(14, 93, 152, 0.1);
+    margin: 0 auto;
+}
+
+.mainBody .mainBodyContent .mainBodyHead{
+    width: 1200px;
+    height: 100px;
+    /*background-color: #FF0000;*/
+    text-align: center;
+    border-bottom: grey solid 1px;
+}
+
+.mainBody .mainBodyContent .mainBodyHead .firstHead{
+    line-height: 50px;
+}
+
+.mainBody .mainBodyContent .mainBodyHead .secondHead{
+    line-height: 20px;
+}
+
+.mainBody .mainBodyContent .mainBodyText{
+    width: 1000px;
+    /*background-color: #00FF00;*/
+    margin: 0 auto;
+}
+
+.mainBody .mainBodyContent .mainBodyText p{
+    margin-top: 10px;
+    line-height: 50px;
+}

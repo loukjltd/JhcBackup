@@ -1,0 +1,21 @@
+.bottomBar{
+    width: 1200px;
+    min-width: 1200px;
+    /*background-color: #FF0000;*/
+    margin: 0 auto;
+}
+
+.bottomBar .bottomBarContent{
+    width: 1200px;
+    height: 100px;
+    background-color: #0E5D98;
+    margin: 0 auto;
+}
+
+.bottomBar .bottomBarContent p{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    line-height: 100px;
+    margin: 0 auto;
+}

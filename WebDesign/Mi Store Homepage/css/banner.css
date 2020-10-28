@@ -1,0 +1,117 @@
+.banner{
+    width: 100%;
+    min-width: 1226px;
+    /*background-color: royalblue;*/
+    height: 460px;
+}
+.banner .content{
+    width: 1226px;
+    height: 100%;
+    background-color: powderblue;
+    margin: 0 auto;
+    position: relative;
+}
+.banner .content .banner-images{
+    width: 100%;
+    height: 100%;
+    /*background-color: aqua;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner .content .banner-images img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.banner .content .banner-images img:nth-child(1){
+    display: block;
+}
+.banner .content .banner-images div{
+    width: 41.5px;
+    height: 69px;
+    background-image: url("../img/icon-slides.png");
+    position: absolute;
+    top: 195.5px;
+}
+.banner .content .banner-images div.left{
+    left: 234px;
+    background-position-x: -83px;
+}
+.banner .content .banner-images div.left:hover{
+    background-position-x: 0;
+
+}
+.banner .content .banner-images div.right{
+    right: 0;
+    background-position-x: -124.5px;
+}
+.banner .content .banner-images div.right:hover{
+    background-position-x: -41.5px;
+}
+.banner .content .banner-images ul{
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+.banner .content .banner-images ul li{
+    width: 10px;
+    height: 10px;
+    float: left;
+    list-style: none;
+    border-radius: 50%;
+    margin:0 4px;
+
+}
+.banner .content .banner-images ul li.selected{
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.banner .content .banner-images ul li.normal{
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.banner .content .banner-images ul li.normal:hover{
+    border-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.banner .content .left-menu{
+    width: 234px;
+    height: 100%;
+    background-color: rgba(105, 101, 101, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner .content .left-menu ul{
+    list-style: none;
+    width: 234px;
+    height: 420px;
+    padding: 20px 0;
+}
+.banner .content .left-menu ul li{
+    width: 234px;
+    height: 42px;
+    line-height: 42px;
+    color: white;
+    font-size: 14px;
+}
+.banner .content .left-menu ul li:hover{
+    background-color: #FF6700;
+}
+.banner .content .left-menu ul li a{
+    width: 204px;
+    padding-left: 30px;
+    display: block;
+    height: 42px;
+}
+.banner .content .left-menu ul li a em{
+    float: right;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 20px;
+}

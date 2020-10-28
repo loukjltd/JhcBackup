@@ -1,0 +1,21 @@
+{% extends "blog/base.html" %}
+{% block content %}
+{# These codes down below are for Jumbotron. #}
+  <div class="jumbotron">
+    <h1 class="display-4">Jumbotron</h1>
+    <p class="lead">This is a test page for Jumbotron.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <p>You can visit Bootstrap Official Website or click the Button down below to learn more information.</p>
+    <a class="btn btn-primary btn-lg" href="https://v4.bootcss.com/docs/components/jumbotron/" role="button">Learn more</a>
+  </div>
+{# These codes down below are for Baseball Cards. #}
+  <div class="card" style="width: 45.6rem;">
+    <img src="../../static/pic/baseball.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="card-title">Baseball</h3>
+      <p class="card-text">Baseball is a bat-and-ball game played between two opposing teams who take turns batting and fielding. The game proceeds when a player on the fielding team, called the pitcher, throws a ball which a player on the batting team tries to hit with a bat.</p>
+      <a href="https://en.wikipedia.org/wiki/Baseball" class="btn btn-primary">Go Wiki</a>
+    </div>
+  </div>
+{% endblock content %}

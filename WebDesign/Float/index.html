@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Float</title>
+    <style type="text/css">
+        .clear{
+            clear: both;
+        }
+        .float{
+            width: 300px;
+            border: darkblue solid 1px;
+        }
+        a{
+            display: block;
+            width: 200px;
+            height: 30px;
+            background-color: yellowgreen;
+            float: left;
+        }
+        .float1, .float3, .float5{
+            width: 500px;
+            height: 200px;
+        }
+        .float2, .float4{
+            width: 100px;
+            height: 100px;
+        }
+
+        .float1{
+            background-color: darkmagenta;
+        }
+        .float2{
+            background-color: turquoise;
+        }
+        .float3{
+            background-color: darkblue;
+        }
+        .float4{
+            background-color: darkseagreen;
+        }
+        .float5{
+            background-color: #00FF00;
+        }
+    </style>
+</head>
+<body>
+    <div class="float">
+        <a>Height of collapse</a>
+        <a>Why?</a>
+        <div class="clear"></div>
+    </div>
+
+    <div class="clear"></div>
+    <div class="float1">
+        <div class="float2"></div>
+    </div>
+
+    <div class="float3">
+        <div class="float4"></div>
+    </div>
+
+    <div class="float5"></div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>菜品展示</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <img src="{% static 'img\gbjd.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body text-white bg-warning">
+        <h5 class="card-title">宫保鸡丁</h5>
+          <a href="{% url 'gbjdPage' %}"><button type="button" class="btn btn-primary">菜谱</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="{% static 'img\mpdf.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body text-white bg-warning">
+        <h5 class="card-title">麻婆豆腐</h5>
+          <a href="{% url 'mpdfPage' %}"><button type="button" class="btn btn-primary">菜谱</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="{% static 'img\tcpg.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body text-white bg-warning">
+        <h5 class="card-title">糖醋排骨</h5>
+          <a href="{% url 'tcpgPage' %}"><button type="button" class="btn btn-primary">菜谱</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

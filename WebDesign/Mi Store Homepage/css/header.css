@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    cursor: pointer;
+    font-family: "方正悠黑简体 508R";
+}
+
+.mi{
+    width: 100%;
+    min-width: 1226px;
+}
+.header{
+    height: 140px;
+}
+.header .top_nav{
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+}
+.header .nav_bar{
+    width: 100%;
+    height: 100px;
+}
+.header .top_nav .content{
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header .top_nav .content ul.left{
+    height: 40px;
+    list-style: none;
+    float: left;
+}
+.header .top_nav .content ul.left li{
+    float: left;
+    line-height: 40px;
+    font-size: 12px;
+    color: #424242;
+}
+.header .top_nav .content ul.left li a{
+    color: #B0B0B0;
+    margin: 0 4px
+}
+.header .top_nav .content ul.right{
+    display: inline-block;
+    height: 40px;
+    list-style: none;
+    float: right;
+}
+.header .top_nav .content ul.right li{
+    float: right;
+    line-height: 40px;
+    font-size: 12px;
+    color: #424242;
+}
+.header .top_nav .content ul.right li a{
+    color: #B0B0B0;
+    margin: 0 4px;
+}
+.header .top_nav .content ul.right li:first-child{
+    height: 40px;
+    width: 120px;
+    background-color: #424242;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+
+
+.header .nav_bar .content{
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+}
+.header .nav_bar .content .logo{
+    width: 55px;
+    height: 55px;
+    background-color: #FF6700;
+    margin-top: 22.5px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.header .nav_bar .content .logo a{
+    display: block;
+    width: 110px;
+    position: absolute;
+    top: 0;
+    left: -55px;
+    transition: all 0.2s;
+}
+.header .nav_bar .content .logo a img{
+    width: 55px;
+    float: left;
+}
+.header .nav_bar .content .logo:hover a{
+    left: 0;
+}
+
+.header .nav_bar .content ul{
+    list-style: none;
+    float: left;
+    height: 100px;
+    margin-left: 172px;
+}
+.header .nav_bar .content ul li{
+    float: left;
+    line-height: 100px;
+    margin: 0 10px;
+    font-size: 16px;
+    color: #333333
+}
+.header .top_nav .content ul li:hover a{
+    color: white;
+}
+.header .nav_bar .content ul li a:hover{
+    color: #FF6700;
+}
+
+.header .nav_bar .content form{
+    width: 296px;
+    height: 50px;
+    float: right;
+    margin-top: 25px;
+}
+.header .nav_bar .content form input{
+    width: 225px;
+    height: 48px;
+    padding: 0 10px;
+    outline: none;
+    border: #E0E0E0 solid 1px;
+    border-right: none;
+    float: left;
+}
+.header .nav_bar .content form button{
+    width: 49px;
+    height: 50px;
+    outline: none;
+    border: #E0E0E0 solid 1px;
+    float: left;
+}
