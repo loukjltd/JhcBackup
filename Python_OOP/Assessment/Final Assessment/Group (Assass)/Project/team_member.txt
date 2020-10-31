@@ -1,0 +1,12 @@
++++++++++++++++++++++++++++++++++
++	          Team Member Table		+
++++++++++++++++++++++++++++++++++
++NAME:		+WORK:	              		+
++++++++++++++++++++++++++++++++++
++Assass(leader):	+GUI function		+
++Yakira:		+half the class		+
++Vicky:		+GUI frame1 and 4		+
++Luis:		+GUI frame2 and 4		+
++Eda:		+GUI frame3 and 4		+
++Clark:		+half the class		+
++++++++++++++++++++++++++++++++++

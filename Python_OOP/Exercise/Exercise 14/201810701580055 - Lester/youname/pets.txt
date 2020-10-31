@@ -1,0 +1,4 @@
+Dog,Max,4
+Cat,Alice,4
+Fish,Nemo,8
+Spider,Fred,8
