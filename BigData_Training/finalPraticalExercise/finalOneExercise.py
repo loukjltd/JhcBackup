@@ -1,6 +1,10 @@
 #   基于 Numpy + matplotlib 对苹果公司股价分析和可视化
 #   Network 182 - Sean Lou
+#   说明：本阶段作业均使用 PyCharm 完成，未使用 Jupyter Book，故没有相关 NoteBook 文件。
+#   本文件已共享至 GitHub，详情请见：
+#   https://github.com/loukjltd/Jinhua_Polytechnic_class_code_backup/blob/main/BigData_Training/finalPraticalExercise/finalOneExercise.py
 #
+#   目标要求：
 # 1.使用 urllib + re 实现爬虫：从”英为财情“网爬取苹果公司最近一个月的股票历史数据
 #
 # 2.基于 numpy 分析苹果公司的股票价格
