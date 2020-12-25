@@ -1,5 +1,5 @@
 #   基于 Numpy + matplotlib 对苹果公司股价分析和可视化
-#   网络 182 - 楼可嘉
+#   Network 182 - Sean Lou
 #
 # 1.使用 urllib + re 实现爬虫：从”英为财情“网爬取苹果公司最近一个月的股票历史数据
 #
