@@ -49,28 +49,28 @@ htmlCode = websiteBuff.decode("utf8")
 releaseDateDataCode = 'class="first left bold noWrap">(.+)</td>'
 releaseDateDataNormalList = re.findall(releaseDateDataCode, htmlCode)
 releaseDateData = np.array(releaseDateDataNormalList)
-print(releaseDateData)
+# print(releaseDateData)
 
 # 爬取收盘价相关代码，存储到 closingData 中
 closingDataCode = '<td data-real-value="(.+)" class="(.+)Font">(.+)</td>'
 closingDataNormalList = re.findall(closingDataCode, htmlCode)
 closingData = np.array(list(zip(*closingDataNormalList))[0])
 closingData = closingData.astype('float')
-print(closingData)
+# print(closingData)
 
 # 爬取交易量相关代码，存储到 turnoverData 中
 turnoverDataCode = '<td data-real-value="(.+)">(.+)M</td>'
 turnoverDataNormalList = re.findall(turnoverDataCode, htmlCode)
 turnoverData = np.array(list(zip(*turnoverDataNormalList))[1])
 turnoverData = turnoverData.astype('float')
-print(turnoverData)
+# print(turnoverData)
 
 # 爬取涨跌幅相关代码，存储到 priceLimitData 中
 priceLimitDataCode = '<td class="bold (.+)Font">(.+)%</td>'
 priceLimitDataNormalList = re.findall(priceLimitDataCode, htmlCode)
 priceLimitData = np.array(list(zip(*priceLimitDataNormalList))[1])
 priceLimitData = priceLimitData.astype('float')
-print(priceLimitData)
+# print(priceLimitData)
 
 # 以下为样式数据，供前期调试使用，现在已不再使用
 # # 日期
