@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>元素的浮动布局2</title>
+    <style>
+      .partA{
+        width: 40%;
+        background-color: red;
+      }
+      .partB{
+        width: 20%;
+        background-color: green;
+      }
+      .partC{
+        width: 40%;
+        background-color: blue;
+      }
+      .partA, .partB, .partC{
+        height: 100px;
+        float: left;
+      }
+      .partEverything{
+        outline: dashed;
+        overflow: auto;
+      }
+    </style>
+</head>
+<body>
+    <div class="partEverything">
+        <div class="partA"></div>
+        <div class="partB"></div>
+        <div class="partC"></div>
+    </div>
+</body>
+</html>
