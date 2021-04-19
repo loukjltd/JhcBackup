@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>样式表的层叠</title>
+    <style>
+        #nav{
+          text-align: center;
+          background-color: #323233;
+        }
+        .navItem{
+          text-decoration: none;
+          color: #d6d6d6;
+          padding: 0 30px;
+          line-height: 50px;
+          font-size: 14px;
+        }
+        #spl{
+          text-align: center;
+          background-color: #f5f5f7;
+        }
+        .splItem{
+          line-height: 40px;
+          font-size: 12px;
+          margin: 0;
+        }
+        #ip12{
+          text-align: center;
+          background-color: #FFFFFF;
+          margin-top: 50px;
+        }
+        .ip12Name{
+          line-height: 56px;
+          font-size: 50px;
+          text-decoration: none;
+          color: black;
+        }
+        .ip12Slogan{
+          line-height: 56px;
+          font-size: 24px;
+          text-decoration: none;
+          color: black;
+        }
+        .ip12Price{
+          line-height: 28px;
+          font-size: 18px;
+          text-decoration: none;
+          color: #86868b;
+        }
+        .ip12Know, .ip12Buy{
+            line-height: 48px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #2667c5;
+            padding: 0 24px;
+        }
+    </style>
+</head>
+<body style="margin: 0;">
+    <div id="nav">
+        <a href="#" class="navItem"></a>
+        <a href="#" class="navItem">Mac</a>
+        <a href="#" class="navItem">iPad</a>
+        <a href="#" class="navItem">iPhone</a>
+        <a href="#" class="navItem">Watch</a>
+        <a href="#" class="navItem">TV</a>
+        <a href="#" class="navItem">Music</a>
+        <a href="#" class="navItem">Support</a>
+    </div>
+    <div id="spl">
+      <p class="splItem"><a style="color: #2667c5">在线选购</a>，享受免费送货、Specialist 专家支持、免息分期等服务。</p>
+    </div>
+    <div id="ip12">
+        <a href="#" class="ip12Name"><b>iPhone 12</b></a>
+        <br>
+        <a href="#" class="ip12Slogan">升维大提速。</a>
+        <br>
+        <a href="#" class="ip12Price">
+            RMB 220/月或 RMB 5499起，
+            <br>
+            还可折抵换购<sup>1</sup>。
+        </a>
+        <br>
+        <a href="#" class="ip12Know">进一步了解 ></a>
+        <a href="#" class="ip12Buy">购买 ></a>
+        <img src="p02u06-apple-index.jpg" alt="iPhone 12" style="width: 100%">
+    </div>
+</body>
+</html>
