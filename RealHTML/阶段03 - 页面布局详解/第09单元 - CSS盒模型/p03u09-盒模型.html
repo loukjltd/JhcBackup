@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒模型</title>
+    <style>
+        *{
+          margin: 0;
+        }
+        .woLongBox{
+          width: 1000px;
+          height: 150px;
+          margin: auto;
+          border: #333333 solid 10px;
+        }
+        .woLongImg{
+          width: 210px;
+          height: 136px;
+          margin: 0 55px;
+          float: left;
+          border: red solid 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="woLongBox">
+      <div class="woLongImg" style="background: url(01.png)"></div>
+      <div class="woLongImg" style="background: url(02.png)"></div>
+      <div class="woLongImg" style="background: url(03.png)"></div>
+    </div>
+</body>
+</html>
