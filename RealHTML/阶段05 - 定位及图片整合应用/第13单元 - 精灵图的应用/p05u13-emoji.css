@@ -1,0 +1,46 @@
+ul{
+    list-style: none;
+}
+ul li{
+    float: left;
+    margin-right: 15px;
+    border: black 1px solid;
+}
+ul li .u13-info{
+    text-align: center;
+    color: white;
+    background: #2667c5;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul li div{
+    width: 100px; height: 100px;
+    background: #d66666;
+}
+ul li.u13-img1:hover div{
+    background: url("emoji.jpg") 0 0;
+}
+ul li.u13-img2:hover div{
+    background: url("emoji.jpg") -100px 0;
+}
+ul li.u13-img3:hover div{
+    background: url("emoji.jpg") -200px 0;
+}
+ul li.u13-img4:hover div{
+    background: url("emoji.jpg") 0 -100px;
+}
+ul li.u13-img5:hover div{
+    background: url("emoji.jpg") -100px -100px;
+}
+ul li.u13-img6:hover div{
+    background: url("emoji.jpg") -200px -100px;
+}
+ul li.u13-img7:hover div{
+    background: url("emoji.jpg") 0 -200px;
+}
+ul li.u13-img8:hover div{
+    background: url("emoji.jpg") -100px -200px;
+}
+ul li.u13-img9:hover div{
+    background: url("emoji.jpg") -200px -200px;
+}
