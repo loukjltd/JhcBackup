@@ -1,4 +1,4 @@
-public class TestOperator {
+public class TestTypeConvert {
     public static void main(String[] args) {
         System.out.println("***算术运算符***");
         int a = 3;
