@@ -5,6 +5,7 @@ public class TestSwitch2 {
         switch (arabianNumber) {
             case 0:
                 bigNumber = '零';
+                break;
             case 1:
                 bigNumber = '壹';
                 break;
